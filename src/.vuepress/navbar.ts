@@ -13,27 +13,27 @@ export default navbar([
     ],
   },
   {
+    text: "开发工具",
+    icon: "pen-to-square",
+    prefix: "/posts/dev-tool/",
+    children: [
+      {
+        text: "博客工具",
+        icon: "pen-to-square",
+        link: "blog-tool",
+      },
+      {
+        text: "命令行工具",
+        icon: "pen-to-square",
+        link: "command-tool",
+      },
+    ],
+  },
+  {
     text: "博客精选",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
-      {
-        text: "开发工具",
-        icon: "pen-to-square",
-        prefix: "dev-tool/",
-        children: [
-          {
-            text: "博客工具",
-            icon: "pen-to-square",
-            link: "blog-tool",
-          },
-          {
-            text: "命令行工具",
-            icon: "pen-to-square",
-            link: "command-tool",
-          },
-        ],
-      },
       "tomato",
       "strawberry",
     ],

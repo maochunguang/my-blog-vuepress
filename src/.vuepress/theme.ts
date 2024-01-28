@@ -10,7 +10,7 @@ export default hopeTheme({
     name: "Tommy",
     url: "https://mister-hope.com",
   },
-
+  themeColor: true,
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "十年后端，羽化升仙！",
     intro: "/intro.html",
     medias: {
       Evernote: "https://example.com",

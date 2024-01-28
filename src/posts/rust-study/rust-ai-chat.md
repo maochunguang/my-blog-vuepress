@@ -11,7 +11,6 @@ tag:
 ---
 
 
-
 # 用rust写一个ai聊天工具
 
 ## 谷歌的gemini
@@ -22,9 +21,7 @@ tag:
 
 ## 工具执行流程
 
-
-
-![Typora_AxuS5naQOr](https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/Typora_AxuS5naQOr.png)
+![执行流程](https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/Typora_AxuS5naQOr.png)
 
 
 

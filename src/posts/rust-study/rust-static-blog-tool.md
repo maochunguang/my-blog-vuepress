@@ -12,7 +12,7 @@ tag:
 
 
 
-# rust-md-site-tool
+# rust写一个静态博客工具
 
 这个静态博客的工具主要是把md文档转为html静态网站/博客。**github链接**：https://github.com/maochunguang/rust-md-site-tool
 
