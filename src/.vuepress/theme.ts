@@ -13,7 +13,7 @@ export default hopeTheme({
   themeColor: true,
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/logo-blog%20(1).svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
