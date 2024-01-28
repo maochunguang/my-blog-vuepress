@@ -14,6 +14,7 @@ tag:
 # rust宏实现`mapstruct`
 
 在java生态有个bean转换工具，叫做`mapstruct`，可以非常方便的进行bean之间的转换。原理就是可以在代码编译的时候生成转换的方法。而rust本身的宏也支持在编译的时候生成代码，因此打算用**属性宏**简单实现一个`mapstruct`。
+<!-- more -->
 
 ## rust宏相关知识
 在 Rust 中宏分为两大类：声明式宏( declarative macros ) macro_rules! 和三种过程宏( procedural macros ):

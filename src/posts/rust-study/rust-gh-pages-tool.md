@@ -16,6 +16,8 @@ tag:
 `nodejs`有个`gh-pages`包，可以把项目里的某个文件夹发布到`gh-pages`非常方便，因此想用rust实现一个版本，对于rust生态的用户来说，多一个选择。这样使用`mdbook`和`gh_page_tool`可以非常方便的管理自己的博客。
 完整代码在github，[gh_page_tool地址](https://github.com/maochunguang/gh-page-tool)。
 
+<!-- more -->
+
 ## 实现原理分析
 `gh_page_tool`使用的时候只有一个命令，`gh_page_tool publish -d book -b gh-pages`，这个命令行工具，有两个参数`-d`和`-b`，
 1. `-d`代表静态博客的目录，默认值是book，这个是mdbook的默认输出目录

@@ -11,7 +11,11 @@ tag:
 
 # rust写一个命令行工具（1）
 
-本项目会使用 Rust 和 `clap` 4.4.0 创建一个命令行工具 `my_dev_tool`，先实现 urlencode、urldecode 和时间戳转换为本地时间三个功能。如果你也想实现一个自己的命令行工具，可以按照以下步骤进行：
+本项目会使用 Rust 和 `clap` 4.4.0 创建一个命令行工具 `my_dev_tool`，先实现 urlencode、urldecode 和时间戳转换为本地时间三个功能。完整代码在github，[my_dev_tool](https://github.com/maochunguang/my_dev_tool)。
+
+如果你也想实现一个自己的命令行工具，可以按照以下步骤进行：
+
+<!-- more -->
 
 ### 第 1 步：创建项目并添加依赖
 

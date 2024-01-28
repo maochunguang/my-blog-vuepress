@@ -2,21 +2,21 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: rust入门到放弃
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 你博客的名称
 heroFullScreen: true
 tagline: 你可以在这里放置你的口号与标语
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: rust的web整合
+    desc: 用rust，rocket，diesel整合一个web项目
+    link: /post/rust-study/rust-rocket-diesel-web
 
   - icon: link
-    name: 链接名称
+    name: rust实现静态博客工具
     desc: 链接详细描述
-    link: https://链接地址
+    link: /post/rust-study/rust-static-blog-tool
 
   - icon: book
     name: 书籍名称
