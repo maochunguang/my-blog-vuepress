@@ -285,3 +285,4 @@ docs/_book
 test/
 .obsidian/
 src/.vuepress/.temp/
+*.log
