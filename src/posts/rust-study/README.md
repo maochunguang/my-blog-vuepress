@@ -19,19 +19,19 @@ projects:
     link: /post/rust-study/rust-static-blog-tool
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: rust宏实现mapstruct
+    desc: 用rust宏实现mapstruct
+    link: /post/rust-study/rust-macro-mapstruct
 
   - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: rust实现命令行工具（1）
+    desc: rust实现命令行工具
+    link: /post/rust-study/rust-command-tool-1
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - icon: article
+    name: rust实现命令行工具（2）
+    desc: rust实现命令行工具
+    link: /post/rust-study/rust-command-tool-2
 
   - icon: https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/logo-blog%20(1).svg
     name: 自定义项目

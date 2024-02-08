@@ -30,18 +30,26 @@ export default navbar([
     ],
   },
   {
-    text: "博客精选",
+    text: "玩转Mac",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/posts/mac-tips",
     children: [
-      "tomato",
-      "strawberry",
+      {
+        text: "必备软件",
+        icon: "pen-to-square",
+        link: "mac-must-soft",
+      },
+      {
+        text: "定制输入法",
+        icon: "pen-to-square",
+        link: "mac-recommend-input",
+      },
     ],
   },
   {
-    text: "V2 文档",
+    text: "java面试宝典",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://codingmore.site/interview",
   },
   // {
   //   text: "java面试",
