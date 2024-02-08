@@ -18,5 +18,9 @@
     "vuepress": "2.0.0-rc.2",
     "vuepress-plugin-reading-time2": "2.0.0-rc.16",
     "vuepress-theme-hope": "2.0.0-rc.15"
+  },
+  "dependencies": {
+    "mathjax-full": "^3.2.2",
+    "mermaid": "^10.8.0"
   }
 }

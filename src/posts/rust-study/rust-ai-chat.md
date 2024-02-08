@@ -3,8 +3,7 @@ icon: pen-to-square
 date: 2024-01-03
 category:
   - Rust入门到放弃
-
-tag:
+tags:
   - Rust
   - 命令行
   - AI

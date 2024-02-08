@@ -283,5 +283,5 @@ docs/_book
 
 # TODO: where does this rule come from?
 test/
-
+.obsidian/
 src/.vuepress/.temp/

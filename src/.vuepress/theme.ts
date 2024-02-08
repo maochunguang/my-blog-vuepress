@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://codingmore.site",
 
   author: {
     name: "Tommy",
@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/logo-blog%20(1).svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "maochunguang/my-blog-vuepress",
 
   docsDir: "src",
 
