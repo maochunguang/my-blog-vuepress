@@ -35,10 +35,10 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       Evernote: "https://example.com",
-      Gitee: "https://example.com",
-      Zhihu: "https://example.com",
-      GitHub: "https://example.com",
-      Gmail: "mailto:info@example.com",
+      Gitee: "https://gitee.com/mcg_dev",
+      Zhihu: "https://www.zhihu.com/people/maocg",
+      GitHub: "https://github.com/maochunguang",
+      Gmail: "maochunguang0201@gmail.com",
       Rss: "https://example.com",
       // Wechat: "https://example.com",
       // Youtube: "https://example.com",
@@ -94,6 +94,11 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+    comment: {
+      comment: true,
+      provider: "Twikoo",
+      envId: "https://codingmore.site/my_comment",
+    },
 
     components: {
       components: ["Badge", "VPCard"],
