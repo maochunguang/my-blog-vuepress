@@ -1,15 +1,16 @@
 ---
 icon: pen-to-square
-date: 2023-11-16
+date: 2024-02-10
 category:
   - 开发工具
+  - 博客搭建
 
 tag:
   - 博客工具
   - 评论插件
 ---
 
-# vuepress使用Twikoo评论系统
+# vuepress-hope使用Twikoo评论系统
 使用静态博客，永远离不开评论的问题。早些年有免费的“多说”，可惜因为资金问题倒闭了。现在博客的评论很多都是基于github的，对于国内用户来说访问太慢了。这里使用Twikoo主要是自己有云服务器，自己搭建Twikoo，国内用户访问比较快。
 
 <!-- more -->
@@ -114,6 +115,40 @@ server {
         }
 }
 ```
+
+使用域名访问一下，可以看到返回结果：
+
+```json
+{
+    "code": 100,
+    "message": "Twikoo 云函数运行正常，请参考 https://twikoo.js.org/frontend.html 完成前端的配置",
+    "version": "1.6.31"
+}
+```
+
+
+
+## 配置vuepress主题
+
+
+
+先在博客项目的根目录安装twikoo，`pnpm install twikoo`。这里需要注意的是服务器安装的twikoo，和博客里安装的twikoo版本最好是一样的，这样能避免一些兼容问题。
+
+然后修改`theme.ts`文件，设置`provider`和`envId。`
+
+```ts
+    comment: {
+      comment: true,
+      provider: "Twikoo",
+      envId: "https://xxx.site/my_comment",
+    },
+```
+
+最后重新生成博客页面，`npm run dev:build`。发布到gh-pages即可。
+
+
+
+![image-20240210131620797](https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/image-20240210131620797.png)
 
 
 
