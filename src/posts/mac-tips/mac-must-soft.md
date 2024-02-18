@@ -12,7 +12,7 @@ tag:
 从2015年开始用mac，时光荏苒，不知不觉已经九年了。今天就分享一些个人长久使用的高效工具。
 <!-- more -->
 
-## IDE篇软件
+## IDEA篇软件
 #### 1、IDEA
 
 #### 2、vscode
@@ -26,6 +26,8 @@ tag:
 
 #### 4、homebrew
 
+#### 5、fish-shell
+
 
 ## 系统工具
 
@@ -36,4 +38,17 @@ tag:
 
 #### 2、启动工具
 
-#### 3、
+#### a、alfred
+
+#### b、cerebro
+
+
+
+#### 3、其他工具
+
+hiddenbar
+
+picgo
+
+cheetsheet
+
