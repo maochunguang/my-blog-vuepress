@@ -18,7 +18,7 @@ tag:
 
 ## java异常分类
 
-在Java中，异常被分为两大类：检查型异常（Checked Exceptions）和非检查型异常（Unchecked Exceptions）。这两类异常的主要区别在于它们如何被处理和传播。
+在Java中，异常错误被分为三大类：严重错误（ERROR），检查型异常（Checked Exceptions）和非检查型异常（Unchecked Exceptions）。这两类异常的主要区别在于它们如何被处理和传播。
 1. **严重错误（Error）**
    * `Error`是`Throwable`的直接子类之一，它代表严重的问题，通常是由Java虚拟机（JVM）或运行时环境抛出的。Error类表示的错误条件通常是不可恢复的，应用程序不应该尝试捕获或处理这些错误。
 2. **检查型异常（Checked Exceptions）**：
