@@ -6,6 +6,7 @@ export default navbar([
     text: "玩转AI",
     icon: "laptop-code",
     prefix: "/aigc/",
+    link: "/aigc/",
     children: [
       { text: "rust宏编程", icon: "pen-to-square", link: "rust-macro-mapstruct" },
       { text: "rust命令行工具", icon: "pen-to-square", link: "rust-command-tool-1" },
