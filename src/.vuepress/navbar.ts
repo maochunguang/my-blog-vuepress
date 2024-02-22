@@ -8,8 +8,7 @@ export default navbar([
     prefix: "/aigc/",
     link: "/aigc/",
     children: [
-      { text: "rust宏编程", icon: "pen-to-square", link: "rust-macro-mapstruct" },
-      { text: "rust命令行工具", icon: "pen-to-square", link: "rust-command-tool-1" },
+      { text: "搭建知识库", icon: "pen-to-square", link: "run-knowledge-base" },
     ],
   },
   {
