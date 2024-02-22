@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c as e}from"./app-KC1-gBUd.js";const r={};function c(n,_){return t(),e("div")}const a=o(r,[["render",c],["__file","rust-download-tool.html.vue"]]);export{a as default};
