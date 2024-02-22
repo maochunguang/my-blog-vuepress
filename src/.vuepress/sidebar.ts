@@ -4,10 +4,9 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "玩转AI",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "aigc/",
       children: "structure",
     },
     {

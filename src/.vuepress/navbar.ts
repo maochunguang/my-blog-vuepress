@@ -2,10 +2,18 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  {
+    text: "玩转AI",
+    icon: "laptop-code",
+    prefix: "/aigc/",
+    children: [
+      { text: "rust宏编程", icon: "pen-to-square", link: "rust-macro-mapstruct" },
+      { text: "rust命令行工具", icon: "pen-to-square", link: "rust-command-tool-1" },
+    ],
+  },
   {
     text: "rust实战",
-    icon: "pen-to-square",
+    icon: "plain-up",
     prefix: "/posts/rust-study/",
     children: [
       { text: "rust宏编程", icon: "pen-to-square", link: "rust-macro-mapstruct" },
@@ -14,29 +22,29 @@ export default navbar([
   },
   {
     text: "开发工具",
-    icon: "pen-to-square",
+    icon: "toolbox",
     prefix: "/posts/dev-tool/",
     children: [
       {
         text: "博客工具",
-        icon: "pen-to-square",
+        icon: "school",
         link: "blog-tool",
       },
       {
         text: "命令行工具",
-        icon: "pen-to-square",
+        icon: "hammer",
         link: "command-tool",
       },
     ],
   },
   {
     text: "玩转Mac",
-    icon: "pen-to-square",
+    icon: "apple",
     prefix: "/posts/mac-tips",
     children: [
       {
         text: "必备软件",
-        icon: "pen-to-square",
+        icon: "soft",
         link: "mac-must-soft",
       },
       {

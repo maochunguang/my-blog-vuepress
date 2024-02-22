@@ -1,4 +1,5 @@
 ---
+title: 五分钟学会java异常处理
 icon: pen-to-square
 date: 2024-02-06
 category:
@@ -8,7 +9,6 @@ category:
 tag:
   - 异常处理
 ---
-# 五分钟学会java异常处理
 
 ## 为什么要处理异常
 
