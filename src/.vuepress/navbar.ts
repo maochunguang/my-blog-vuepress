@@ -14,7 +14,7 @@ export default navbar([
   {
     text: "rust实战",
     icon: "plain-up",
-    prefix: "/posts/rust-study/",
+    prefix: "/rust-study/",
     children: [
       { text: "rust宏编程", icon: "pen-to-square", link: "rust-macro-mapstruct" },
       { text: "rust命令行工具", icon: "pen-to-square", link: "rust-command-tool-1" },
@@ -23,7 +23,7 @@ export default navbar([
   {
     text: "开发工具",
     icon: "toolbox",
-    prefix: "/posts/dev-tool/",
+    prefix: "/dev-tool/",
     children: [
       {
         text: "博客工具",
@@ -40,7 +40,7 @@ export default navbar([
   {
     text: "玩转Mac",
     icon: "apple",
-    prefix: "/posts/mac-tips",
+    prefix: "/mac-tips",
     children: [
       {
         text: "必备软件",

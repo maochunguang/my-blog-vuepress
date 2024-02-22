@@ -11,7 +11,7 @@ projects:
   - icon: project
     name: mac必备软件
     desc: mac必备软件
-    link: /post/mac-tips/mac-must-soft
+    link: /mac-tips/mac-must-soft
 
   - icon: link
     name: 链接名称
@@ -21,17 +21,17 @@ projects:
   - icon: book
     name: rust宏实现mapstruct
     desc: 用rust宏实现mapstruct
-    link: /post/rust-study/rust-macro-mapstruct
+    link: /rust-study/rust-macro-mapstruct
 
   - icon: article
     name: rust实现命令行工具（1）
     desc: rust实现命令行工具
-    link: /post/rust-study/rust-command-tool-1
+    link: /rust-study/rust-command-tool-1
 
   - icon: article
     name: rust实现命令行工具（2）
     desc: rust实现命令行工具
-    link: /post/rust-study/rust-command-tool-2
+    link: /rust-study/rust-command-tool-2
 
   - icon: friend
     name: 伙伴名称

@@ -9,37 +9,30 @@ export default sidebar({
       prefix: "aigc/",
       children: "structure",
     },
+
     {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
-      children: [
-        {
-          text: "开发工具",
-          icon: "toolbox",
-          prefix: "dev-tool/",
-          children: "structure",
-        },
-        {
-          text: "五分钟学java",
-          icon: "laptop-code",
-          prefix: "java-five-study/",
-          link: "",
-          children: "structure",
-        },
-        {
-          text: "玩转Mac",
-          icon: "apple",
-          prefix: "mac-tips/",
-          children: "structure",
-        },
-        {
-          text: "rust入门到放弃",
-          icon: "laptop-code",
-          prefix: "rust-study/",
-          children: "structure",
-        }
-      ],
+      text: "开发工具",
+      icon: "toolbox",
+      prefix: "dev-tool/",
+      children: "structure",
+    },
+    {
+      text: "五分钟学java",
+      icon: "laptop-code",
+      prefix: "java-five-study/",
+      children: "structure",
+    },
+    {
+      text: "玩转Mac",
+      icon: "apple",
+      prefix: "mac-tips/",
+      children: "structure",
+    },
+    {
+      text: "rust入门到放弃",
+      icon: "laptop-code",
+      prefix: "rust-study/",
+      children: "structure",
     },
     "intro",
     // {
