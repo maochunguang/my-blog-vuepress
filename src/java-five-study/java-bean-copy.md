@@ -1,5 +1,5 @@
 ---
-pnpm dlx vp-updatetitle: JavaBean复制框架调研
+title: JavaBean复制框架调研
 icon: copy
 date: 2024-02-06
 category:
@@ -13,6 +13,7 @@ tag:
 ## 一、背景
 
 每一个写java的同学都会为一堆set，get方法烦恼，特别是使用mvc分层或者DDD领域模型开发之后。有VO（View Object）视图对象，DTO（Data Transfer Object）数据传输对象，DO（Domain Object）领域对象，PO（Persistent Object）持久层对象等等。不同层之间进行交互时，免不了进行对象的复制。每次已修改底层数据结构，都要从头到尾改一遍，实在是不优雅。这篇文章让你以后不用写set和get赋值。
+<!-- more -->
 
 **在bean复制框架之前：**
 

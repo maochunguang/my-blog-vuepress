@@ -21,6 +21,15 @@ export default navbar([
     ],
   },
   {
+    text: "五分钟深入Java",
+    icon: "java",
+    prefix: "/java-five-study/",
+    children: [
+      { text: "javaBean复制框架对比", icon: "pen-to-square", link: "java-bean-copy" },
+      { text: "java异常处理原则", icon: "pen-to-square", link: "java-handle-exception" },
+    ],
+  },
+  {
     text: "开发工具",
     icon: "toolbox",
     prefix: "/dev-tool/",
