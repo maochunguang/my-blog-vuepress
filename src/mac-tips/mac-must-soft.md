@@ -44,11 +44,25 @@ tag:
 
 
 
-#### 3、其他工具
+#### 3、影音工具
 
-hiddenbar
+1、VLC 
 
-picgo
 
-cheetsheet
+
+#### 4、开发工具
+
+1、虚拟机软件：VirtualBox
+
+
+
+#### 5、其他工具
+
+菜单栏：hiddenbar
+
+图片上传：picgo
+
+快捷键软件：cheetsheet
+
+监控软件：stats
 

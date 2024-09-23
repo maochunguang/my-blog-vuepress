@@ -1,4 +1,5 @@
 ---
+title: 静态博客生成工具
 icon: pen-to-square
 date: 2024-01-28
 category:

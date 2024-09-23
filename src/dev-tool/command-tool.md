@@ -1,5 +1,6 @@
 ---
-icon: pen-to-square
+title: 各个语言的命令行工具
+icon: tool
 date: 2023-11-16
 category:
   - 开发工具

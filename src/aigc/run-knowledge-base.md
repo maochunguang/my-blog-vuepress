@@ -3,9 +3,10 @@ title: 本地搭建chatgpt知识库
 icon: fab fa-markdown
 order: 2
 category:
-  - 使用指南
+  - AIGC
 tag:
-  - Markdown
+  - langchain
+  - chatgpt
 ---
 🤖️ 一种利用 langchain 思想实现的基于本地知识库的问答应用，目标期望建立一套对中文场景与开源模型支持友好、可离线运行的知识库问答解决方案。
 <!-- more -->
