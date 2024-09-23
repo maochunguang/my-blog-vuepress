@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "Coding More",
+  title: "编程技术分享",
   description: "Tommy的技术博客",
 
   theme,

@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: https://blog-pics-1252092369.cos.ap-beijing.myqcloud.com/logo-blog%20(1).svg
-heroText: Coding More
+heroText: 编程技术分享
 heroFullScreen: true
 tagline: 你可以在这里放置你的口号与标语
 projects:
