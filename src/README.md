@@ -39,5 +39,7 @@ projects:
     link: https://你的伙伴链接
 
 
-footer: 自定义你的页脚文字
+footer: 
+  <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024047495号-1</a> 
+footerHtml: true
 ---
