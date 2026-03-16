@@ -12,19 +12,18 @@
     "docs:publish": "gh-pages -d src/.vuepress/dist -b gh-pages"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.8",
-    "mathjax-full": "^3.2.2",
+    "@mathjax/src": "4.1.1",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-reading-time": "2.0.0-rc.125",
     "mermaid": "^10.7.0",
-    "sass": "^1.71.1",
-    "vue": "^3.4.19",
-    "vuepress": "2.0.0-rc.8",
-    "vuepress-plugin-reading-time2": "2.0.0-rc.18",
-    "vuepress-theme-hope": "2.0.0-rc.26"
+    "sass": "^1.98.0",
+    "vue": "^3.5.30",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.103"
   },
   "dependencies": {
-    "markdown-it": "^14.0.0",
-    "mathjax-full": "^3.2.2",
-    "mermaid": "^10.8.0",
-    "twikoo": "^1.6.31"
+    "markdown-it": "^14.1.1",
+    "mermaid": "^10.9.5",
+    "twikoo": "^1.7.3"
   }
 }
